@@ -1,0 +1,81 @@
+body {
+    background-color: #9bd461;
+    background-image: url(img/kwa.jpg);
+    background-size: 100%;
+    text-align: center;
+    font-family: monospace;
+    color: #4a4a4a;
+}
+
+@media(max-width: 12450px){
+    body{
+        background-size: auto;
+        background-position: 40% 25%;
+    }
+}
+
+.fill-form {
+    text-align: center;
+    max-width: 700px;
+    margin: 10% auto auto 40%;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.enter {
+    height: 60px;
+}
+
+input[type=text], input[type=password] {
+    width: 500px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #afafaf;
+    padding-left: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.terms a{
+    color: #4a4a4a;
+}
+
+.signin a {
+    color:#000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.register-btn {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: linear-gradient(165deg, rgba(30,222,126,1) 0%, rgba(198,241,125,1) 50%, rgba(255,235,0,1) 100%);
+    border-style: none;
+    height: 45px;
+    width: 250px;
+    margin: auto;
+}
+
+.register-btn:hover {
+    -webkit-box-shadow: 0px 0px 28px rgba(90, 255, 0, 1);
+    -moz-box-shadow:    0px 0px 28px rgba(90, 255, 0, 1);
+    box-shadow:         0px 0px 28px rgba(90, 255, 0, 1);
+}
+
+.terms {
+    padding-bottom: 35px;
+}
